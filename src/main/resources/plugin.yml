@@ -1,0 +1,14 @@
+name: WalkQuest
+version: '1.0-beta'
+main: dev.Fjc.walkQuest.WalkQuest
+api-version: '1.20'
+prefix: WalkQuest
+authors: [ Fjc ]
+description: Walk quest API interface
+
+depend: [ODailyQuests]
+
+commands:
+  walkquestapi-reload:
+    description: Reloads WalkQuest plugin interface. Does not reload ODailyQuests, the two should not be confused.
+    permission: odailyquests.admin

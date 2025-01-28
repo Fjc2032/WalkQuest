@@ -1,0 +1,4 @@
+#This file allows you to change the threshold variable to whatever you want.
+#The threshold contains the maximum distance (in blocks) that will be counted for each PlayerMoveEvent.
+#Enter a double.
+threshold: 1.5
