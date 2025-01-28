@@ -1,6 +1,4 @@
-#The following is a syntax example for you to build the new WALK and SWIM quest types.
-#Since loadParameters() has no arguments present for both of these, it will mimic the global format.
-#Changing these values means nothing to the API, so do what you want.
+#Syntax to use the WALK quest type
 
 quests:
   1:
@@ -11,12 +9,3 @@ quests:
     quest_type: WALK
     required_amount: 999 #Type an integer
     reward: whatever you want + other args #usually COMMAND or MONEY
-
-  2:
-    name: "Another huge test"
-    menu_item: Whatever_you_want
-    description:
-      - "Another description"
-    quest_type: SWIM
-    required_amount: 365 #Type an integer
-    reward: anything + other args #usually COMMAND or MONEY
