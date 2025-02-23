@@ -78,5 +78,10 @@
             <version>24.0.0</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.Ordwen</groupId>
+            <artifactId>ODailyQuests</artifactId>
+            <version>2.3.1</version>
+        </dependency>
     </dependencies>
 </project>
